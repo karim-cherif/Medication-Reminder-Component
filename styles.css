@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-fields {
+    margin-bottom: 20px;
+  }
+  
+  .input-fields label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-fields input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #setReminderBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #setReminderBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #feedback {
+    font-weight: bold;
+    color: green;
+  }
+  
